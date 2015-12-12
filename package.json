@@ -1,9 +1,10 @@
 {
   "name": "express-flame",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A module used to convert express plugins to work with flamewire server.",
   "main": "dist/index.js",
   "scripts": {
+    "watch": "watch \"npm run build\" src",
     "build": "babel src --out-dir dist",
     "test": "mocha --compilers js:babel-core/register"
   },
